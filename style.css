@@ -4,10 +4,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* body {
-  background-color: #FDEBF7;
-} */
-
 form {
   width: 100%;
 }
@@ -55,11 +51,6 @@ input[name=user_email] {
   grid-template-rows: 33% 33% 33% 33%;
   row-gap: 2px;
   column-gap: 2px;
-}
-
-.container-main-buttons :nth-child(5){
-  /* border-radius: 100%; */
-
 }
 
 #explanation {
@@ -129,12 +120,13 @@ input[name=user_email] {
   #container {
     margin: 0 auto 0 auto;
     width: 95%;
-    height: 72vh;
+    height: 160vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1.5fr 1fr 1fr 1fr 1fr;
     row-gap: 5px;
     column-gap: 5px;
+    margin-bottom: 25px;
   }
 
   .container-child-buttons button {
